@@ -1,0 +1,79 @@
+body{
+
+font: Georgia;
+font-family: Georgia;
+margin: 0 0;
+
+
+}
+.header{
+margin: 0 0;
+color: white;
+background-color: #06BBE8;
+text-align: center;
+padding: 20px;
+transition: 1s;
+
+
+}
+
+
+.div,#reset,#easy,#hard{
+margin: 0 0;
+color: white;
+background-color: #12777F;
+text-align: center;
+outline: none;
+border: none;
+
+
+
+}
+#text-display{
+width:40%;
+display:inline-block;
+transition: 1s;
+
+}
+
+.div{
+	height: 30px;
+
+}
+
+#reset,#easy,#hard{
+display: inline-block;
+height:inherit;
+font-size: inherit;	
+transition: 0.5s;
+}
+
+#reset:hover,#easy:hover,#hard:hover{
+background-color: #06BBE8;
+
+}
+
+.container{
+
+	padding: 20px;
+	max-width: 600px ; 
+	margin: 0 auto;
+}
+.select{
+
+background-color: #06BBE8;
+
+}
+
+
+.square{
+
+	float:left;
+
+	background-color: blue;
+	border-radius: 18%;
+	margin: 1.66%;
+	width: 30%;
+	height: 150px;
+	transition: 1s;
+}
